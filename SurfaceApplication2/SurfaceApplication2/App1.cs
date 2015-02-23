@@ -32,7 +32,6 @@ namespace SurfaceApplication2
        float delay =500f;
         int frame = 0;
         string binaryResult;
-        Rectangle destRect;
         Rectangle sourceRect;
         int binaryResultLength = 0;
         int binaryposition = 0;
@@ -41,7 +40,7 @@ namespace SurfaceApplication2
         private Color backgroundColor = new Color(0, 0, 0);
         private bool applicationLoadCompleteSignalled;
 
-        private UserOrientation currentOrientation = UserOrientation.Bottom;
+       
         private Matrix screenTransform = Matrix.Identity;
 
         /// <summary>
@@ -74,10 +73,19 @@ namespace SurfaceApplication2
         protected override void Initialize()
         {
 
+            //fullscreen
 
-            string myText = "go";
+            graphics.PreferredBackBufferWidth = GraphicsDevice.DisplayMode.Width;
+            graphics.PreferredBackBufferHeight = GraphicsDevice.DisplayMode.Height;
+            graphics.IsFullScreen = true;
+            graphics.ApplyChanges();
+
+            //binary conversion
+            string myText = "bet50";
             //byte[] arr = System.Text.Encoding.ASCII.GetBytes(myText);
-             binaryResult = ConvertToBinary(myText);
+            binaryResult = ConvertToBinary(myText);
+
+            //binaryResult = "0123456789abcdef";
 
              binaryResultLength = binaryResult.Length;
             Console.WriteLine(binaryResult.ToString());
@@ -195,32 +203,170 @@ namespace SurfaceApplication2
 
 
 
-           
 
+            #region Binary check for blink
 
             if (binaryResult[binaryposition] == '0' ) {
-
-
-                Console.WriteLine(binaryResult[binaryposition].ToString());
-            spriteBatch.Draw(light, new Rectangle(100, 100, 100, 100), sourceRect, Color.White);
-            
-            
-            if (binaryposition <= binaryResultLength-1)
-            {
-                binaryposition++;
-            }
                 
+                Console.WriteLine(binaryResult[binaryposition].ToString());
+                spriteBatch.Draw(light, new Rectangle(100, 100, 100, 100), sourceRect, Color.White);
+                if (binaryposition <= binaryResultLength-1)
+                {
+                    binaryposition++;
+                }
             }
+
             else if (binaryResult[binaryposition] == '1')
             {
                 Console.WriteLine(binaryResult[binaryposition].ToString());
                 spriteBatch.Draw(light, new Rectangle(250, 100, 100, 100), sourceRect, Color.White);
-               
                 if (binaryposition <=binaryResultLength-1) {
                     binaryposition++;
                 }
-                
             }
+
+            else if (binaryResult[binaryposition] == '2')
+            {
+                Console.WriteLine(binaryResult[binaryposition].ToString());
+                spriteBatch.Draw(light, new Rectangle(400, 100, 100, 100), sourceRect, Color.White);
+                if (binaryposition <= binaryResultLength - 1)
+                {
+                    binaryposition++;
+                }
+            }
+
+            else if (binaryResult[binaryposition] == '3')
+            {
+                Console.WriteLine(binaryResult[binaryposition].ToString());
+                spriteBatch.Draw(light, new Rectangle(550, 100, 100, 100), sourceRect, Color.White);
+                if (binaryposition <= binaryResultLength - 1)
+                {
+                    binaryposition++;
+                }
+            }
+
+            else if (binaryResult[binaryposition] == '4')
+            {
+                Console.WriteLine(binaryResult[binaryposition].ToString());
+                spriteBatch.Draw(light, new Rectangle(100, 250, 100, 100), sourceRect, Color.White);
+                if (binaryposition <= binaryResultLength - 1)
+                {
+                    binaryposition++;
+                }
+            }
+
+            else if (binaryResult[binaryposition] == '5')
+            {
+                Console.WriteLine(binaryResult[binaryposition].ToString());
+                spriteBatch.Draw(light, new Rectangle(250, 250, 100, 100), sourceRect, Color.White);
+                if (binaryposition <= binaryResultLength - 1)
+                {
+                    binaryposition++;
+                }
+            }
+
+            else if (binaryResult[binaryposition] == '6')
+            {
+                Console.WriteLine(binaryResult[binaryposition].ToString());
+                spriteBatch.Draw(light, new Rectangle(400, 250, 100, 100), sourceRect, Color.White);
+                if (binaryposition <= binaryResultLength - 1)
+                {
+                    binaryposition++;
+                }
+            }
+
+            else if (binaryResult[binaryposition] == '7')
+            {
+                Console.WriteLine(binaryResult[binaryposition].ToString());
+                spriteBatch.Draw(light, new Rectangle(550, 250, 100, 100), sourceRect, Color.White);
+                if (binaryposition <= binaryResultLength - 1)
+                {
+                    binaryposition++;
+                }
+            }
+
+            else if (binaryResult[binaryposition] == '8')
+            {
+                Console.WriteLine(binaryResult[binaryposition].ToString());
+                spriteBatch.Draw(light, new Rectangle(100, 400, 100, 100), sourceRect, Color.White);
+                if (binaryposition <= binaryResultLength - 1)
+                {
+                    binaryposition++;
+                }
+            }
+
+            else if (binaryResult[binaryposition] == '9')
+            {
+                Console.WriteLine(binaryResult[binaryposition].ToString());
+                spriteBatch.Draw(light, new Rectangle(250, 400, 100, 100), sourceRect, Color.White);
+                if (binaryposition <= binaryResultLength - 1)
+                {
+                    binaryposition++;
+                }
+            }
+
+            else if (binaryResult[binaryposition] == 'a')
+            {
+                Console.WriteLine(binaryResult[binaryposition].ToString());
+                spriteBatch.Draw(light, new Rectangle(400, 400, 100, 100), sourceRect, Color.White);
+                if (binaryposition <= binaryResultLength - 1)
+                {
+                    binaryposition++;
+                }
+            }
+
+            else if (binaryResult[binaryposition] == 'b')
+            {
+                Console.WriteLine(binaryResult[binaryposition].ToString());
+                spriteBatch.Draw(light, new Rectangle(550, 400, 100, 100), sourceRect, Color.White);
+                if (binaryposition <= binaryResultLength - 1)
+                {
+                    binaryposition++;
+                }
+            }
+
+            else if (binaryResult[binaryposition] == 'c')
+            {
+                Console.WriteLine(binaryResult[binaryposition].ToString());
+                spriteBatch.Draw(light, new Rectangle(100, 550, 100, 100), sourceRect, Color.White);
+                if (binaryposition <= binaryResultLength - 1)
+                {
+                    binaryposition++;
+                }
+            }
+
+            else if (binaryResult[binaryposition] == 'd')
+            {
+                Console.WriteLine(binaryResult[binaryposition].ToString());
+                spriteBatch.Draw(light, new Rectangle(250, 550, 100, 100), sourceRect, Color.White);
+                if (binaryposition <= binaryResultLength - 1)
+                {
+                    binaryposition++;
+                }
+            }
+
+            else if (binaryResult[binaryposition] == 'e')
+            {
+                Console.WriteLine(binaryResult[binaryposition].ToString());
+                spriteBatch.Draw(light, new Rectangle(400, 550, 100, 100), sourceRect, Color.White);
+                if (binaryposition <= binaryResultLength - 1)
+                {
+                    binaryposition++;
+                }
+            }
+
+            else if (binaryResult[binaryposition] == 'f')
+            {
+                Console.WriteLine(binaryResult[binaryposition].ToString());
+                spriteBatch.Draw(light, new Rectangle(550, 550, 100, 100), sourceRect, Color.White);
+                if (binaryposition <= binaryResultLength - 1)
+                {
+                    binaryposition++;
+                }
+            }
+
+            #endregion
+
             spriteBatch.End();
             flag = false;
             Console.WriteLine("binaryposition   " + binaryposition);
@@ -236,13 +382,14 @@ namespace SurfaceApplication2
 
         public static string ConvertToBinary(string asciiString)
         {
-            string result = string.Empty;
-            foreach (char ch in asciiString)
+            string hex = "";
+            foreach (char c in asciiString)
             {
-                result += Convert.ToString((int)ch, 2);
+                int tmp = c;
+                hex += String.Format("{0:x2}", (uint)System.Convert.ToUInt32(tmp.ToString()));
             }
 
-            return result;
+            return hex;
         }
 
         #endregion

@@ -120,6 +120,7 @@ namespace SurfaceApplication2
                             : Screen.PrimaryScreen.WorkingArea.Height;
 
             Form form = (Form)Form.FromHandle(Window.Handle);
+            Console.SetWindowSize(40, 40);
             form.ClientSize = new Size(width, height);
             form.WindowState = (SurfaceEnvironment.IsSurfaceEnvironmentAvailable)
                             ? FormWindowState.Normal

@@ -7,3 +7,12 @@ c:\users\simkeyur\documents\visual studio 2010\Projects\SurfaceApplication2\Surf
 c:\users\simkeyur\documents\visual studio 2010\Projects\SurfaceApplication2\SurfaceApplication2\SurfaceApplication2\obj\x86\Debug\SurfaceApplication2.exe
 c:\users\simkeyur\documents\visual studio 2010\Projects\SurfaceApplication2\SurfaceApplication2\SurfaceApplication2\obj\x86\Debug\SurfaceApplication2.pdb
 C:\Users\simkeyur\Documents\Visual Studio 2010\Projects\SurfaceApplication2\SurfaceApplication2\SurfaceApplication2\obj\x86\Debug\SurfaceApplication2.csprojResolveAssemblyReference.cache
+C:\Users\simkeyur\Documents\GitHub\SurfaceApplication2\testApplication\SurfaceApplication2\SurfaceApplication2\bin\x86\Debug\Resources\icon.png
+C:\Users\simkeyur\Documents\GitHub\SurfaceApplication2\testApplication\SurfaceApplication2\SurfaceApplication2\bin\x86\Debug\SurfaceApplication2.xml
+C:\Users\simkeyur\Documents\GitHub\SurfaceApplication2\testApplication\SurfaceApplication2\SurfaceApplication2\bin\x86\Debug\Content\flash.xnb
+C:\Users\simkeyur\Documents\GitHub\SurfaceApplication2\testApplication\SurfaceApplication2\SurfaceApplication2\bin\x86\Debug\SurfaceApplication2.exe
+C:\Users\simkeyur\Documents\GitHub\SurfaceApplication2\testApplication\SurfaceApplication2\SurfaceApplication2\bin\x86\Debug\SurfaceApplication2.pdb
+C:\Users\simkeyur\Documents\GitHub\SurfaceApplication2\testApplication\SurfaceApplication2\SurfaceApplication2\obj\x86\Debug\SurfaceApplication2.csprojResolveAssemblyReference.cache
+C:\Users\simkeyur\Documents\GitHub\SurfaceApplication2\testApplication\SurfaceApplication2\SurfaceApplication2\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\simkeyur\Documents\GitHub\SurfaceApplication2\testApplication\SurfaceApplication2\SurfaceApplication2\obj\x86\Debug\SurfaceApplication2.exe
+C:\Users\simkeyur\Documents\GitHub\SurfaceApplication2\testApplication\SurfaceApplication2\SurfaceApplication2\obj\x86\Debug\SurfaceApplication2.pdb

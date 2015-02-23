@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\simkeyur\documents\visual studio 2010\Projects\SurfaceApplication2\SurfaceApplication2\SurfaceApplication2\bin\x86\Debug\Content\flash.xnb</Output>
+      <Output>C:\Users\simkeyur\Documents\GitHub\SurfaceApplication2\testApplication\SurfaceApplication2\SurfaceApplication2\bin\x86\Debug\Content\flash.xnb</Output>
       <Time>2015-02-23T05:07:00.9227017-06:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -16,10 +16,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>c:\users\simkeyur\documents\visual studio 2010\Projects\SurfaceApplication2\SurfaceApplication2\SurfaceApplication2Content\</RootDirectory>
-      <LoggerRootDirectory>c:\users\simkeyur\documents\visual studio 2010\Projects\SurfaceApplication2\SurfaceApplication2\SurfaceApplication2\</LoggerRootDirectory>
-      <IntermediateDirectory>c:\users\simkeyur\documents\visual studio 2010\Projects\SurfaceApplication2\SurfaceApplication2\SurfaceApplication2Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>c:\users\simkeyur\documents\visual studio 2010\Projects\SurfaceApplication2\SurfaceApplication2\SurfaceApplication2\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\simkeyur\Documents\GitHub\SurfaceApplication2\testApplication\SurfaceApplication2\SurfaceApplication2Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\simkeyur\Documents\GitHub\SurfaceApplication2\testApplication\SurfaceApplication2\SurfaceApplication2\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\simkeyur\Documents\GitHub\SurfaceApplication2\testApplication\SurfaceApplication2\SurfaceApplication2Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\simkeyur\Documents\GitHub\SurfaceApplication2\testApplication\SurfaceApplication2\SurfaceApplication2\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
