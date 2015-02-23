@@ -1,0 +1,9 @@
+c:\users\simkeyur\documents\visual studio 2010\Projects\SurfaceApplication2\SurfaceApplication2\SurfaceApplication2\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\simkeyur\documents\visual studio 2010\Projects\SurfaceApplication2\SurfaceApplication2\SurfaceApplication2\bin\x86\Debug\Resources\icon.png
+c:\users\simkeyur\documents\visual studio 2010\Projects\SurfaceApplication2\SurfaceApplication2\SurfaceApplication2\bin\x86\Debug\SurfaceApplication2.xml
+c:\users\simkeyur\documents\visual studio 2010\Projects\SurfaceApplication2\SurfaceApplication2\SurfaceApplication2\bin\x86\Debug\Content\flash.xnb
+c:\users\simkeyur\documents\visual studio 2010\Projects\SurfaceApplication2\SurfaceApplication2\SurfaceApplication2\bin\x86\Debug\SurfaceApplication2.exe
+c:\users\simkeyur\documents\visual studio 2010\Projects\SurfaceApplication2\SurfaceApplication2\SurfaceApplication2\bin\x86\Debug\SurfaceApplication2.pdb
+c:\users\simkeyur\documents\visual studio 2010\Projects\SurfaceApplication2\SurfaceApplication2\SurfaceApplication2\obj\x86\Debug\SurfaceApplication2.exe
+c:\users\simkeyur\documents\visual studio 2010\Projects\SurfaceApplication2\SurfaceApplication2\SurfaceApplication2\obj\x86\Debug\SurfaceApplication2.pdb
+C:\Users\simkeyur\Documents\Visual Studio 2010\Projects\SurfaceApplication2\SurfaceApplication2\SurfaceApplication2\obj\x86\Debug\SurfaceApplication2.csprojResolveAssemblyReference.cache
